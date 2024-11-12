@@ -85,7 +85,7 @@ def merge_y(Tup, Tdn, combine=False, trace=False):
             shape = Tmerge.shape
             Tmerge = Tmerge.reshape(shape[0] * shape[1], shape[2] * shape[3])
     else:
-        Tmerge = np.einsum('abcd,defg->abecfg', Tup, Tdn)
+        Tmerge = np.einsum('abcd,defg->abecfg', Tup, Tdn, optimize = optimize)
         
         if combine:
             shape = Tmerge.shape
