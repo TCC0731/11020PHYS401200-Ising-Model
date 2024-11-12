@@ -2,6 +2,8 @@ import numpy as np
 from scipy.sparse.linalg import eigsh
 import time
 
+optimize = 'optimal'
+
 def get_W(beta, J=1, h=0):
     """
     Calculate the matrix W based on beta, J, and h using numpy.
@@ -77,7 +79,7 @@ def merge_y(Tup, Tdn, combine=False, trace=False):
         np.ndarray: Merged tensor.
     """
     if trace:
-        Tmerge = np.einsum('abcd,defa->becf', Tup, Tdn)
+        Tmerge = np.einsum('abcd,defa->becf', Tup, Tdn, optimize = optimize)
         
         if combine:
             shape = Tmerge.shape
