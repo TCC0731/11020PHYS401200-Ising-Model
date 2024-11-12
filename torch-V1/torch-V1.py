@@ -1,5 +1,6 @@
 import numpy as np
 import torch
+import time
 
 def get_W(beta, J=1, h=0):
     """
@@ -85,6 +86,8 @@ W = np.ones((MaxL+1,len(Temp),2))
 E = np.ones((MaxL+1,len(Temp),2))
 Tc = 2/np.log(1+np.sqrt(2))
 
+st = time.time()
+
 for i,temp in enumerate(Temp):
     T_bare = get_T_bare(1/temp)
     TL = T_bare
@@ -97,3 +100,5 @@ for i,temp in enumerate(Temp):
             TL = merge_y(TL,TL,True)
 E = -np.log(W)
 Corr_len = 1/(E[:,:,-2]-E[:,:,-1])
+
+print(time.time() - st)
