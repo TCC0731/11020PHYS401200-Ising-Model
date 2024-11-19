@@ -1,8 +1,5 @@
 import numpy as np
-from scipy.sparse.linalg import eigsh
-import time
-
-optimize = 'optimal'
+from scipy.linalg import eigh
 
 def get_W(beta, J=1, h=0):
     """
@@ -79,13 +76,13 @@ def merge_y(Tup, Tdn, combine=False, trace=False):
         np.ndarray: Merged tensor.
     """
     if trace:
-        Tmerge = np.einsum('abcd,defa->becf', Tup, Tdn, optimize = optimize)
+        Tmerge = np.einsum('abcd,defa->becf', Tup, Tdn)
         
         if combine:
             shape = Tmerge.shape
             Tmerge = Tmerge.reshape(shape[0] * shape[1], shape[2] * shape[3])
     else:
-        Tmerge = np.einsum('abcd,defg->abecfg', Tup, Tdn, optimize = optimize)
+        Tmerge = np.einsum('abcd,defg->abecfg', Tup, Tdn)
         
         if combine:
             shape = Tmerge.shape
@@ -94,20 +91,18 @@ def merge_y(Tup, Tdn, combine=False, trace=False):
     return Tmerge
 
 MaxL = 4
-Temp = np.linspace(2.26,4,10000)
+Temp = np.linspace(2.26,4,100)
 W = np.ones((MaxL+1,len(Temp),2))
 E = np.ones((MaxL+1,len(Temp),2))
 Tc = 2/np.log(1+np.sqrt(2))
-
-st = time.time()
 
 for i, temp in enumerate(Temp):
     T_bare = get_T_bare(1 / temp)
     TL = T_bare
     for j in range(2, MaxL + 1):
         TL_Trace = merge_y(TL, TL, combine=True, trace=True)
-        eigvals, eigvecs = eigsh(TL_Trace, k=2, which='LM', return_eigenvectors=True)
-        W[j, i, :] = eigvals
+        eigvals, eigvecs = eigh(TL_Trace)
+        W[j, i, :] = eigvals[-2:]
         del TL_Trace
         
         if j != MaxL:
@@ -115,5 +110,3 @@ for i, temp in enumerate(Temp):
             
 E = -np.log(W)
 Corr_len = 1 / (E[:, :, -2] - E[:, :, -1])
-
-print(time.time() - st)
