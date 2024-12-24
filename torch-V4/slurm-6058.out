@@ -1,0 +1,445 @@
+Tue Dec 24 20:48:51 CST 2024
+hgpn08
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       1.7Ti       5.0Gi       216Gi       1.9Ti
+Swap:            0B          0B          0B
+11 0.01 8 8
+Start 0: 2.200 0 ForkPoolWorker-1
+
+Start 4: 2.206 1 ForkPoolWorker-2
+
+Start 8: 2.212 4 ForkPoolWorker-5
+
+Start 12: 2.218 2 ForkPoolWorker-3
+
+Start 16: 2.224 3 ForkPoolWorker-4
+
+Start 20: 2.230 5 ForkPoolWorker-6
+
+Start 24: 2.236 6 ForkPoolWorker-7
+
+Start 28: 2.242 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:182: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 28: 2.242 Use time: 7.12
+Start 29: 2.244 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:182: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 8: 2.212 Use time: 7.12
+Start 9: 2.214 4 ForkPoolWorker-5
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+End 29: 2.244 Use time: 0.07
+Start 30: 2.245 7 ForkPoolWorker-8
+
+End 9: 2.214 Use time: 0.07
+Start 10: 2.215 4 ForkPoolWorker-5
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:182: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 24: 2.236 Use time: 7.22
+Start 25: 2.238 6 ForkPoolWorker-7
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:182: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 0: 2.200 Use time: 7.26
+Start 1: 2.202 0 ForkPoolWorker-1
+
+End 30: 2.245 Use time: 0.07
+Start 31: 2.247 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 10: 2.215 Use time: 0.07
+Start 11: 2.217 4 ForkPoolWorker-5
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:182: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 4: 2.206 Use time: 7.28
+Start 5: 2.208 1 ForkPoolWorker-2
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:182: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 12: 2.218 Use time: 7.29
+Start 13: 2.220 2 ForkPoolWorker-3
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 25: 2.238 Use time: 0.07
+Start 26: 2.239 6 ForkPoolWorker-7
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:182: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 20: 2.230 Use time: 7.29
+Start 21: 2.232 5 ForkPoolWorker-6
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:182: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 16: 2.224 Use time: 7.29
+Start 17: 2.226 3 ForkPoolWorker-4
+
+End 1: 2.202 Use time: 0.07
+Start 2: 2.203 0 ForkPoolWorker-1
+
+End 31: 2.247 Use time: 0.07
+Start 32: 2.248 7 ForkPoolWorker-8
+
+End 11: 2.217 Use time: 0.07
+Start 36: 2.255 4 ForkPoolWorker-5
+
+End 5: 2.208 Use time: 0.07
+Start 6: 2.209 1 ForkPoolWorker-2
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 13: 2.220 Use time: 0.08
+Start 14: 2.221 2 ForkPoolWorker-3
+
+End 26: 2.239 Use time: 0.07
+Start 27: 2.241 6 ForkPoolWorker-7
+
+End 21: 2.232 Use time: 0.07
+Start 22: 2.233 5 ForkPoolWorker-6
+
+End 17: 2.226 Use time: 0.08
+Start 18: 2.227 3 ForkPoolWorker-4
+
+End 2: 2.203 Use time: 0.07
+Start 3: 2.205 0 ForkPoolWorker-1
+
+End 32: 2.248 Use time: 0.07
+Start 33: 2.250 7 ForkPoolWorker-8
+
+End 36: 2.255 Use time: 0.08
+Start 37: 2.256 4 ForkPoolWorker-5
+
+End 6: 2.209 Use time: 0.07
+Start 7: 2.211 1 ForkPoolWorker-2
+
+End 14: 2.221 Use time: 0.08
+Start 15: 2.223 2 ForkPoolWorker-3
+
+End 27: 2.241 Use time: 0.07
+Start 40: 2.261 6 ForkPoolWorker-7
+
+End 22: 2.233 Use time: 0.07
+Start 23: 2.235 5 ForkPoolWorker-6
+
+End 18: 2.227 Use time: 0.07
+Start 19: 2.229 3 ForkPoolWorker-4
+
+End 3: 2.205 Use time: 0.07
+Start 44: 2.267 0 ForkPoolWorker-1
+
+End 33: 2.250 Use time: 0.07
+Start 34: 2.252 7 ForkPoolWorker-8
+
+End 37: 2.256 Use time: 0.08
+Start 38: 2.258 4 ForkPoolWorker-5
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 7: 2.211 Use time: 0.07
+Start 48: 2.273 1 ForkPoolWorker-2
+
+End 15: 2.223 Use time: 0.08
+Start 52: 2.279 2 ForkPoolWorker-3
+
+End 23: 2.235 Use time: 0.07
+Start 56: 2.285 5 ForkPoolWorker-6
+
+End 40: 2.261 Use time: 0.08
+Start 41: 2.262 6 ForkPoolWorker-7
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:183: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 19: 2.229 Use time: 0.07
+Start 60: 2.291 3 ForkPoolWorker-4
+
+End 44: 2.267 Use time: 0.08
+Start 45: 2.268 0 ForkPoolWorker-1
+
+End 34: 2.252 Use time: 0.08
+Start 35: 2.253 7 ForkPoolWorker-8
+
+End 38: 2.258 Use time: 0.08
+Start 39: 2.259 4 ForkPoolWorker-5
+
+End 48: 2.273 Use time: 0.08
+Start 49: 2.274 1 ForkPoolWorker-2
+
+End 56: 2.285 Use time: 0.08
+Start 57: 2.286 5 ForkPoolWorker-6
+
+End 52: 2.279 Use time: 0.08
+Start 53: 2.280 2 ForkPoolWorker-3
+
+End 41: 2.262 Use time: 0.08
+Start 42: 2.264 6 ForkPoolWorker-7
+
+End 60: 2.291 Use time: 0.08
+Start 61: 2.292 3 ForkPoolWorker-4
+
+End 45: 2.268 Use time: 0.08
+Start 46: 2.270 0 ForkPoolWorker-1
+
+End 35: 2.253 Use time: 0.08
+Start 64: 2.297 7 ForkPoolWorker-8
+
+End 39: 2.259 Use time: 0.08
+Start 68: 2.303 4 ForkPoolWorker-5
+
+End 49: 2.274 Use time: 0.08
+Start 50: 2.276 1 ForkPoolWorker-2
+
+End 57: 2.286 Use time: 0.08
+Start 58: 2.288 5 ForkPoolWorker-6
+
+End 61: 2.292 Use time: 0.08
+Start 62: 2.294 3 ForkPoolWorker-4
+
+End 53: 2.280 Use time: 0.08
+Start 54: 2.282 2 ForkPoolWorker-3
+
+End 42: 2.264 Use time: 0.08
+Start 43: 2.265 6 ForkPoolWorker-7
+
+End 46: 2.270 Use time: 0.08
+Start 47: 2.271 0 ForkPoolWorker-1
+
+End 64: 2.297 Use time: 0.08
+Start 65: 2.298 7 ForkPoolWorker-8
+
+End 68: 2.303 Use time: 0.08
+Start 69: 2.305 4 ForkPoolWorker-5
+
+End 50: 2.276 Use time: 0.08
+Start 51: 2.277 1 ForkPoolWorker-2
+
+End 58: 2.288 Use time: 0.08
+Start 59: 2.289 5 ForkPoolWorker-6
+
+End 62: 2.294 Use time: 0.08
+Start 63: 2.295 3 ForkPoolWorker-4
+
+End 54: 2.282 Use time: 0.08
+Start 55: 2.283 2 ForkPoolWorker-3
+
+End 43: 2.265 Use time: 0.08
+Start 72: 2.309 6 ForkPoolWorker-7
+
+End 47: 2.271 Use time: 0.08
+Start 76: 2.315 0 ForkPoolWorker-1
+
+End 65: 2.298 Use time: 0.08
+Start 66: 2.300 7 ForkPoolWorker-8
+
+End 69: 2.305 Use time: 0.08
+Start 70: 2.306 4 ForkPoolWorker-5
+
+End 51: 2.277 Use time: 0.08
+Start 80: 2.321 1 ForkPoolWorker-2
+
+End 63: 2.295 Use time: 0.08
+End 59: 2.289 Use time: 0.08Start 84: 2.327 3 ForkPoolWorker-4
+
+
+Start 88: 2.333 5 ForkPoolWorker-6
+
+End 55: 2.283 Use time: 0.08
+Start 92: 2.339 2 ForkPoolWorker-3
+
+End 72: 2.309 Use time: 0.08
+Start 73: 2.311 6 ForkPoolWorker-7
+
+End 76: 2.315 Use time: 0.08
+Start 77: 2.317 0 ForkPoolWorker-1
+
+End 66: 2.300 Use time: 0.08
+Start 67: 2.302 7 ForkPoolWorker-8
+
+End 70: 2.306 Use time: 0.08
+Start 71: 2.308 4 ForkPoolWorker-5
+
+End 88: 2.333 Use time: 0.08
+Start 89: 2.335 5 ForkPoolWorker-6
+
+End 84: 2.327 Use time: 0.08
+Start 85: 2.329 3 ForkPoolWorker-4
+
+End 80: 2.321 Use time: 0.08
+Start 81: 2.323 1 ForkPoolWorker-2
+
+End 92: 2.339 Use time: 0.07
+Start 93: 2.341 2 ForkPoolWorker-3
+
+End 73: 2.311 Use time: 0.08
+Start 74: 2.312 6 ForkPoolWorker-7
+
+End 77: 2.317 Use time: 0.08
+Start 78: 2.318 0 ForkPoolWorker-1
+
+End 71: 2.308 Use time: 0.08
+Start 96: 2.345 4 ForkPoolWorker-5
+
+End 67: 2.302 Use time: 0.08
+End 89: 2.335 Use time: 0.07
+Start 90: 2.336 5 ForkPoolWorker-6
+
+End 85: 2.329 Use time: 0.08
+Start 86: 2.330 3 ForkPoolWorker-4
+
+End 93: 2.341 Use time: 0.08
+Start 94: 2.342 2 ForkPoolWorker-3
+
+End 81: 2.323 Use time: 0.08
+Start 82: 2.324 1 ForkPoolWorker-2
+
+End 74: 2.312 Use time: 0.08
+Start 75: 2.314 6 ForkPoolWorker-7
+
+End 78: 2.318 Use time: 0.08
+Start 79: 2.320 0 ForkPoolWorker-1
+
+End 96: 2.345 Use time: 0.07
+Start 97: 2.347 4 ForkPoolWorker-5
+
+End 90: 2.336 Use time: 0.07
+Start 91: 2.338 5 ForkPoolWorker-6
+
+End 94: 2.342 Use time: 0.07
+Start 95: 2.344 2 ForkPoolWorker-3
+
+End 86: 2.330 Use time: 0.08
+Start 87: 2.332 3 ForkPoolWorker-4
+
+End 82: 2.324 Use time: 0.08
+Start 83: 2.326 1 ForkPoolWorker-2
+
+End 75: 2.314 Use time: 0.08
+End 79: 2.320 Use time: 0.08
+End 97: 2.347 Use time: 0.07
+Start 98: 2.348 4 ForkPoolWorker-5
+
+End 91: 2.338 Use time: 0.07
+End 95: 2.344 Use time: 0.07
+End 87: 2.332 Use time: 0.08
+End 83: 2.326 Use time: 0.08
+End 98: 2.348 Use time: 0.07
+Start 99: 2.350 4 ForkPoolWorker-5
+
+End 99: 2.350 Use time: 0.07
+Results saved to Cv_results.pkl
+Tue Dec 24 20:49:02 CST 2024
+11
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              112
+On-line CPU(s) list: 0-111
+Thread(s) per core:  1
+Core(s) per socket:  56
+Socket(s):           2
+NUMA node(s):        2
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               143
+Model name:          Intel(R) Xeon(R) Platinum 8480+
+Stepping:            8
+CPU MHz:             2000.000
+CPU max MHz:         3800.0000
+CPU min MHz:         800.0000
+BogoMIPS:            4000.00
+Virtualization:      VT-x
+L1d cache:           48K
+L1i cache:           32K
+L2 cache:            2048K
+L3 cache:            107520K
+NUMA node0 CPU(s):   0-55
+NUMA node1 CPU(s):   56-111
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 invpcid_single intel_ppin cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities
+Tue Dec 24 20:49:02 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.08             Driver Version: 535.161.08   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  | 00000000:0F:00.0 Off |                    0 |
+| N/A   36C    P0             112W / 700W |      0MiB / 81559MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA H100 80GB HBM3          On  | 00000000:10:00.0 Off |                    0 |
+| N/A   37C    P0             114W / 700W |      0MiB / 81559MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   2  NVIDIA H100 80GB HBM3          On  | 00000000:41:00.0 Off |                    0 |
+| N/A   36C    P0             114W / 700W |      0MiB / 81559MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   3  NVIDIA H100 80GB HBM3          On  | 00000000:44:00.0 Off |                    0 |
+| N/A   34C    P0             119W / 700W |      0MiB / 81559MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   4  NVIDIA H100 80GB HBM3          On  | 00000000:86:00.0 Off |                    0 |
+| N/A   33C    P0             111W / 700W |      0MiB / 81559MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   5  NVIDIA H100 80GB HBM3          On  | 00000000:87:00.0 Off |                    0 |
+| N/A   35C    P0             116W / 700W |      0MiB / 81559MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   6  NVIDIA H100 80GB HBM3          On  | 00000000:B9:00.0 Off |                    0 |
+| N/A   36C    P0             109W / 700W |      0MiB / 81559MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+|   7  NVIDIA H100 80GB HBM3          On  | 00000000:BC:00.0 Off |                    0 |
+| N/A   34C    P0             113W / 700W |      0MiB / 81559MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
