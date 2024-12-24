@@ -1,0 +1,26 @@
+Wed Dec 25 02:01:15 CST 2024
+hgpn09
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       1.6Ti       5.0Gi       317Gi       1.9Ti
+Swap:            0B          0B          0B
+dcut = 38
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:138: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  E1 = -np.log(w1[-2:])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:159: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  if np.abs(func_out[-1]) <= 1e-13:
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:21: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_cosh = np.sqrt(np.cosh(beta * J))
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:22: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_sinh = np.sqrt(np.sinh(beta * J))
+2 2 2.3440182829356035 0.0748329687225815
+3 4 2.2813932879757908 0.01220797376276872
+4 8 2.2704720189827396 0.0012867047697175948
+5 16 2.2693470359508523 0.0001617217378302449
+6 32 2.269227786086939 4.2471873916927194e-05
+7 64 2.269219864417928 3.4550204905947624e-05
+8 128 2.2692191132671753 3.379905415323847e-05
+9 256 2.2692133885051753 2.8074292153235092e-05
+10 512 2.269206377085749 2.1062872726851367e-05
+Results saved to Secant_results.pkl
+Wed Dec 25 02:08:55 CST 2024
+460

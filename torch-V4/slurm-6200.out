@@ -1,0 +1,27 @@
+Wed Dec 25 01:07:37 CST 2024
+hgpn08
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       1.7Ti       5.0Gi       217Gi       1.9Ti
+Swap:            0B          0B          0B
+Namespace(d=20)
+15 0.01 20 8
+dcut = 4
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:151: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  E1 = -np.log(w1[-2:])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:171: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  if np.abs(func_out[-1]) <= 1e-13:
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:21: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_cosh = np.sqrt(np.cosh(beta * J))
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:22: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_sinh = np.sqrt(np.sinh(beta * J))
+2 2 2.3850858946981037 0.11590058048508167
+Traceback (most recent call last):
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 188, in <module>
+    T_star.append(Secant_Method(f,2.265,T_star[-1],10,i,dcut))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 173, in Secant_Method
+    new_x = x[-1] - func_out[-1] * (x[-1] - x[-2]) / (func_out[-1] - func_out[-2])
+            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'numpy.ndarray' and 'Tensor'
+Wed Dec 25 01:07:42 CST 2024
+5

@@ -1,0 +1,378 @@
+Wed Dec 25 00:41:23 CST 2024
+hgpn13
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        29Gi       903Gi       5.0Gi       1.1Ti       1.9Ti
+Swap:            0B          0B          0B
+Namespace(d=32)
+16 0.01 32 8
+Start 0: 2.200 0 ForkPoolWorker-1
+
+Start 4: 2.206 1 ForkPoolWorker-2
+
+Start 8: 2.212 2 ForkPoolWorker-3
+
+Start 12: 2.218 4 ForkPoolWorker-5
+
+Start 16: 2.224 5 ForkPoolWorker-6
+
+Start 20: 2.230 6 ForkPoolWorker-7
+
+Start 24: 2.236 3 ForkPoolWorker-4
+
+Start 28: 2.242 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:170: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:170: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:170: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:170: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:170: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:170: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:170: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:170: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:190: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 20: 2.230 Use time: 24.19
+Start 21: 2.232 6 ForkPoolWorker-7
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:190: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 28: 2.242 Use time: 24.18
+Start 29: 2.244 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:190: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 0: 2.200 Use time: 24.35
+Start 1: 2.202 0 ForkPoolWorker-1
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:190: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 16: 2.224 Use time: 24.38
+Start 17: 2.226 5 ForkPoolWorker-6
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:190: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 24: 2.236 Use time: 24.43
+Start 25: 2.238 3 ForkPoolWorker-4
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:190: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 4: 2.206 Use time: 24.45
+Start 5: 2.208 1 ForkPoolWorker-2
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:190: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 8: 2.212 Use time: 24.62
+Start 9: 2.214 2 ForkPoolWorker-3
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:190: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:191: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 12: 2.218 Use time: 25.13
+Start 13: 2.220 4 ForkPoolWorker-5
+
+End 29: 2.244 Use time: 15.08
+Start 30: 2.245 7 ForkPoolWorker-8
+
+End 21: 2.232 Use time: 15.15
+Start 22: 2.233 6 ForkPoolWorker-7
+
+End 5: 2.208 Use time: 15.06
+Start 6: 2.209 1 ForkPoolWorker-2
+
+End 1: 2.202 Use time: 15.27
+Start 2: 2.203 0 ForkPoolWorker-1
+
+End 17: 2.226 Use time: 15.24
+Start 18: 2.227 5 ForkPoolWorker-6
+
+End 25: 2.238 Use time: 15.24
+Start 26: 2.239 3 ForkPoolWorker-4
+
+End 9: 2.214 Use time: 15.53
+Start 10: 2.215 2 ForkPoolWorker-3
+
+End 13: 2.220 Use time: 15.85
+Start 14: 2.221 4 ForkPoolWorker-5
+
+End 22: 2.233 Use time: 15.14
+Start 23: 2.235 6 ForkPoolWorker-7
+
+End 30: 2.245 Use time: 15.35
+Start 31: 2.247 7 ForkPoolWorker-8
+
+End 6: 2.209 Use time: 15.18
+Start 7: 2.211 1 ForkPoolWorker-2
+
+End 26: 2.239 Use time: 15.14
+Start 27: 2.241 3 ForkPoolWorker-4
+
+End 18: 2.227 Use time: 15.21
+Start 19: 2.229 5 ForkPoolWorker-6
+
+End 2: 2.203 Use time: 15.31
+Start 3: 2.205 0 ForkPoolWorker-1
+
+End 10: 2.215 Use time: 15.52
+Start 11: 2.217 2 ForkPoolWorker-3
+
+End 14: 2.221 Use time: 15.49
+Start 15: 2.223 4 ForkPoolWorker-5
+
+End 31: 2.247 Use time: 14.99
+Start 32: 2.248 7 ForkPoolWorker-8
+
+End 23: 2.235 Use time: 15.21
+Start 36: 2.255 6 ForkPoolWorker-7
+
+End 19: 2.229 Use time: 15.01
+Start 40: 2.261 5 ForkPoolWorker-6
+
+End 7: 2.211 Use time: 15.29
+Start 44: 2.267 1 ForkPoolWorker-2
+
+End 27: 2.241 Use time: 15.22
+Start 48: 2.273 3 ForkPoolWorker-4
+
+End 3: 2.205 Use time: 15.44
+Start 52: 2.279 0 ForkPoolWorker-1
+
+End 11: 2.217 Use time: 15.74
+Start 56: 2.285 2 ForkPoolWorker-3
+
+End 15: 2.223 Use time: 15.37
+Start 60: 2.291 4 ForkPoolWorker-5
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:96: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+End 40: 2.261 Use time: 15.32
+Start 41: 2.262 5 ForkPoolWorker-6
+
+End 36: 2.255 Use time: 15.48
+Start 37: 2.256 6 ForkPoolWorker-7
+
+End 32: 2.248 Use time: 15.66
+Start 33: 2.250 7 ForkPoolWorker-8
+
+End 52: 2.279 Use time: 15.23
+Start 53: 2.280 0 ForkPoolWorker-1
+
+End 48: 2.273 Use time: 15.60
+Start 49: 2.274 3 ForkPoolWorker-4
+
+End 44: 2.267 Use time: 15.70
+Start 45: 2.268 1 ForkPoolWorker-2
+
+End 56: 2.285 Use time: 15.05
+Start 57: 2.286 2 ForkPoolWorker-3
+
+End 60: 2.291 Use time: 14.97
+Start 61: 2.292 4 ForkPoolWorker-5
+
+End 41: 2.262 Use time: 15.23
+Start 42: 2.264 5 ForkPoolWorker-6
+
+End 33: 2.250 Use time: 15.18
+Start 34: 2.252 7 ForkPoolWorker-8
+
+End 37: 2.256 Use time: 15.49
+Start 38: 2.258 6 ForkPoolWorker-7
+
+End 53: 2.280 Use time: 15.16
+Start 54: 2.282 0 ForkPoolWorker-1
+
+End 49: 2.274 Use time: 15.40
+Start 50: 2.276 3 ForkPoolWorker-4
+
+End 57: 2.286 Use time: 15.06
+Start 58: 2.288 2 ForkPoolWorker-3
+
+End 45: 2.268 Use time: 15.88
+Start 46: 2.270 1 ForkPoolWorker-2
+
+End 61: 2.292 Use time: 14.81
+Start 62: 2.294 4 ForkPoolWorker-5
+
+End 34: 2.252 Use time: 15.27
+Start 35: 2.253 7 ForkPoolWorker-8
+
+End 42: 2.264 Use time: 15.49
+Start 43: 2.265 5 ForkPoolWorker-6
+
+End 38: 2.258 Use time: 15.26
+Start 39: 2.259 6 ForkPoolWorker-7
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv_1.py:96: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+End 54: 2.282 Use time: 15.31
+Start 55: 2.283 0 ForkPoolWorker-1
+
+End 50: 2.276 Use time: 15.38
+Start 51: 2.277 3 ForkPoolWorker-4
+
+End 58: 2.288 Use time: 14.95
+Start 59: 2.289 2 ForkPoolWorker-3
+
+End 62: 2.294 Use time: 15.33
+Start 63: 2.295 4 ForkPoolWorker-5
+
+End 46: 2.270 Use time: 15.72
+Start 47: 2.271 1 ForkPoolWorker-2
+
+End 35: 2.253 Use time: 15.38
+Start 64: 2.297 7 ForkPoolWorker-8
+
+End 39: 2.259 Use time: 15.31
+Start 68: 2.303 6 ForkPoolWorker-7
+
+End 59: 2.289 Use time: 14.89
+Start 72: 2.309 2 ForkPoolWorker-3
+
+End 55: 2.283 Use time: 15.31
+Start 76: 2.315 0 ForkPoolWorker-1
+
+End 43: 2.265 Use time: 15.55
+Start 80: 2.321 5 ForkPoolWorker-6
+
+End 63: 2.295 Use time: 14.77
+Start 84: 2.327 4 ForkPoolWorker-5
+
+End 51: 2.277 Use time: 15.37
+Start 88: 2.333 3 ForkPoolWorker-4
+
+End 47: 2.271 Use time: 15.62
+Start 92: 2.339 1 ForkPoolWorker-2
+
+End 64: 2.297 Use time: 14.71
+Start 65: 2.298 7 ForkPoolWorker-8
+
+End 72: 2.309 Use time: 14.67
+Start 73: 2.311 2 ForkPoolWorker-3
+
+End 68: 2.303 Use time: 14.92
+Start 69: 2.305 6 ForkPoolWorker-7
+
+End 88: 2.333 Use time: 14.72
+Start 89: 2.335 3 ForkPoolWorker-4
+
+End 76: 2.315 Use time: 15.17
+Start 77: 2.317 0 ForkPoolWorker-1
+
+End 84: 2.327 Use time: 14.88
+Start 85: 2.329 4 ForkPoolWorker-5
+
+End 80: 2.321 Use time: 15.28
+Start 81: 2.323 5 ForkPoolWorker-6
+
+End 92: 2.339 Use time: 14.54
+Start 93: 2.341 1 ForkPoolWorker-2
+
+End 65: 2.298 Use time: 14.82
+Start 66: 2.300 7 ForkPoolWorker-8
+
+End 73: 2.311 Use time: 14.63
+Start 74: 2.312 2 ForkPoolWorker-3
+
+End 69: 2.305 Use time: 14.96
+Start 70: 2.306 6 ForkPoolWorker-7
+
+End 89: 2.335 Use time: 14.64
+Start 90: 2.336 3 ForkPoolWorker-4
+
+End 85: 2.329 Use time: 14.80
+Start 86: 2.330 4 ForkPoolWorker-5
+
+End 77: 2.317 Use time: 15.25
+Start 78: 2.318 0 ForkPoolWorker-1
+
+End 93: 2.341 Use time: 14.43
+Start 94: 2.342 1 ForkPoolWorker-2
+
+End 81: 2.323 Use time: 15.31
+Start 82: 2.324 5 ForkPoolWorker-6
+
+End 66: 2.300 Use time: 14.74
+Start 67: 2.302 7 ForkPoolWorker-8
+
+End 74: 2.312 Use time: 14.84
+Start 75: 2.314 2 ForkPoolWorker-3
+
+End 90: 2.336 Use time: 14.58
+Start 91: 2.338 3 ForkPoolWorker-4
+
+End 94: 2.342 Use time: 14.25
+Start 95: 2.344 1 ForkPoolWorker-2
+
+End 70: 2.306 Use time: 15.09
+Start 71: 2.308 6 ForkPoolWorker-7
+
+End 86: 2.330 Use time: 14.80
+Start 87: 2.332 4 ForkPoolWorker-5
+
+End 82: 2.324 Use time: 15.06
+Start 83: 2.326 5 ForkPoolWorker-6
+
+End 78: 2.318 Use time: 15.33
+Start 79: 2.320 0 ForkPoolWorker-1
+
+End 67: 2.302 Use time: 14.88
+Start 96: 2.345 7 ForkPoolWorker-8
+
+End 91: 2.338 Use time: 14.64
+End 75: 2.314 Use time: 14.90
+End 95: 2.344 Use time: 14.28
+End 87: 2.332 Use time: 14.59
+End 71: 2.308 Use time: 14.99
+End 83: 2.326 Use time: 14.93
+End 79: 2.320 Use time: 15.58
+End 96: 2.345 Use time: 14.37
+Start 97: 2.347 7 ForkPoolWorker-8
+
+End 97: 2.347 Use time: 14.39
+Start 98: 2.348 7 ForkPoolWorker-8
+
+End 98: 2.348 Use time: 14.20
+Start 99: 2.350 7 ForkPoolWorker-8
+
+End 99: 2.350 Use time: 14.26
+Results saved to Cv_results.pkl
+Wed Dec 25 00:45:34 CST 2024
+251

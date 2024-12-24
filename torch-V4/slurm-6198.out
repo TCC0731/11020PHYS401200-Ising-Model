@@ -1,0 +1,43 @@
+Wed Dec 25 01:03:39 CST 2024
+hgpn08
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       1.7Ti       5.0Gi       217Gi       1.9Ti
+Swap:            0B          0B          0B
+Namespace(d=20)
+15 0.01 20 8
+dcut = 4
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:151: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  E1 = -np.log(w1[-2:])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:171: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  if np.abs(func_out[-1]) <= 1e-13:
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:21: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_cosh = np.sqrt(np.cosh(beta * J))
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:22: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_sinh = np.sqrt(np.sinh(beta * J))
+2 2 tensor(2.3851, dtype=torch.float64)
+3 4 tensor(2.2869, dtype=torch.float64)
+4 8 tensor(2.2614, dtype=torch.float64)
+5 16 tensor(2.2508, dtype=torch.float64)
+6 32 tensor(2.2458, dtype=torch.float64)
+7 64 tensor(2.2436, dtype=torch.float64)
+8 128 tensor(2.2427, dtype=torch.float64)
+9 256 tensor(2.1151, dtype=torch.float64)
+10 512 tensor(2.3231, dtype=torch.float64)
+11 1024 tensor(2.3170, dtype=torch.float64)
+12 2048 tensor(2.3163, dtype=torch.float64)
+13 4096 tensor(2.3615, dtype=torch.float64)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:159: RuntimeWarning: divide by zero encountered in scalar divide
+  Corr_len2 = 1/(E2[-2]-E2[-1])
+Traceback (most recent call last):
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 188, in <module>
+    T_star.append(Secant_Method(f,2.265,T_star[-1],10,i,dcut))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 168, in Secant_Method
+    func_out.append(func(x[-1],MaxL,dcut))
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 150, in f
+    w1 = torch.linalg.eigvalsh(TL_Trace).cpu()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch._C._LinAlgError: linalg.eigh: The algorithm failed to converge because the input matrix is ill-conditioned or has too many repeated eigenvalues (error code: 15).
+Wed Dec 25 01:03:45 CST 2024
+6

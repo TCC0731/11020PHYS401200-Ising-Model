@@ -1,0 +1,79 @@
+Wed Dec 25 01:12:11 CST 2024
+hgpn08
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       1.7Ti       5.0Gi       217Gi       1.9Ti
+Swap:            0B          0B          0B
+Namespace(d=20)
+15 0.01 20 8
+dcut = 4
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:161: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  E1 = -np.log(w1[-2:])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:181: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  if np.abs(func_out[-1]) <= 1e-13:
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:21: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_cosh = np.sqrt(np.cosh(beta * J))
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:22: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_sinh = np.sqrt(np.sinh(beta * J))
+2 2 2.3850858946981037 0.11590058048508167
+3 4 2.2868821123754106 0.01769679816238856
+4 8 2.261419771082595 -0.007765543130426877
+5 16 2.2507999018944886 -0.018385412318533412
+6 32 2.2458448192152622 -0.02334049499775981
+7 64 2.2436082949919878 -0.02557701922103428
+8 128 2.2426586516563605 -0.026526662556661584
+9 256 2.4031958063890326 0.13401049217601058
+10 512 2.384995151699022 0.11580983748600016
+11 1024 2.3814176082307768 0.1122322940177547
+12 2048 2.4625173338130426 0.19333201960002055
+13 4096 2.368160355237589 0.09897504102456711
+14 8192 2.2632352539397633 -0.005950060273258728
+15 16384 2.263233617813348 -0.005951696399673967
+16 32768 2.263531667120619 -0.0056536470924029025
+17 65536 2.262748065046735 -0.0064372491662871845
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:161: RuntimeWarning: divide by zero encountered in log
+  E1 = -np.log(w1[-2:])
+18 131072 2.2633129042476274 -0.0058724099653946205
+19 262144 2.26331334379013 -0.005871970422892225
+20 524288 2.2613408106560247 -0.007844503556997395
+dcut = 8
+2 2 2.3462428396840336 0.07705752547101152
+3 4 2.2835677421588705 0.01438242794584843
+4 8 2.27358407259834 0.00439875838531778
+5 16 2.271986440253395 0.002801126040373081
+6 32 2.2709269440998527 0.0017416298868306868
+7 64 2.2700962621333978 0.0009109479203757154
+8 128 2.269535093089763 0.00034977887674081387
+9 256 2.269206633062343 2.1318849320994815e-05
+10 512 2.2690359688647854 -0.00014934534823662915
+11 1024 2.2689555640029093 -0.00022975021011273355
+12 2048 2.2689205753847435 -0.00026473882827859896
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:169: RuntimeWarning: divide by zero encountered in scalar divide
+  Corr_len2 = 1/(E2[-2]-E2[-1])
+13 4096 2.2689205753847435 -0.00026473882827859896
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:128: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.linalg.svd(Tmerge_pure)
+cpu
+Traceback (most recent call last):
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 128, in merge_x_truncate
+    U, S, V = torch.linalg.svd(Tmerge_pure)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch._C._LinAlgError: linalg.svd: The algorithm failed to converge because the input matrix is ill-conditioned or has too many repeated singular values (error code: 64).
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 198, in <module>
+    T_star.append(Secant_Method(f,2.265,T_star[-1],10,i,dcut).item())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 178, in Secant_Method
+    func_out.append(func(x[-1],MaxL,dcut))
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 156, in f
+    TLx = merge_x_truncate(TL, TL, dcut)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 131, in merge_x_truncate
+    U, S, V = torch.linalg.svd(Tmerge_pure.cpu())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch._C._LinAlgError: linalg.svd: The algorithm failed to converge because the input matrix contained non-finite values.
+Wed Dec 25 01:12:21 CST 2024
+10

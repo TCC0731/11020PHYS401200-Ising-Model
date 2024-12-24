@@ -1,0 +1,36 @@
+Wed Dec 25 02:13:25 CST 2024
+hgpn21
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       808Gi       1.9Gi       1.2Ti       1.9Ti
+Swap:            0B          0B          0B
+dcut = 32
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:138: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  E1 = -np.log(w1[-2:])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:159: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  if np.abs(func_out[-1]) <= 1e-13:
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:21: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_cosh = np.sqrt(np.cosh(beta * J))
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:22: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_sinh = np.sqrt(np.sinh(beta * J))
+2 2 2.3440182829356035 0.0748329687225815
+3 4 2.2813941674308453 0.012208853217823279
+4 8 2.2704749822519794 0.001289668038957359
+5 16 2.2693723609528362 0.0001870467398141784
+6 32 2.2692622501804043 7.693596738223007e-05
+7 64 2.269253020533766 6.770632074415417e-05
+8 128 2.269244535272758 5.922105973610314e-05
+9 256 2.26923253011692 4.72159038977793e-05
+10 512 2.2692208196739116 3.55054608895955e-05
+dcut = 36
+2 2 2.3440182829356035 0.0748329687225815
+3 4 2.281394486640748 0.01220917242772579
+4 8 2.270475951515192 0.0012906373021701611
+5 16 2.2693585739106137 0.0001732596975916323
+6 32 2.2692441697677332 5.8855554711190194e-05
+7 64 2.2692339776320933 4.866341907128202e-05
+8 128 2.26922764745318 4.2333240157788055e-05
+9 256 2.2692185690947477 3.3254881725675034e-05
+10 512 2.2692096026525403 2.428843951829407e-05
+Results saved to Secant_results.pkl
+Wed Dec 25 02:21:40 CST 2024
+495

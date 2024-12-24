@@ -1,0 +1,364 @@
+Wed Dec 25 00:47:28 CST 2024
+hgpn09
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       1.6Ti       5.0Gi       316Gi       1.9Ti
+Swap:            0B          0B          0B
+Namespace(d=38)
+15 0.01 38 8
+Start 0: 2.265 0 ForkPoolWorker-1
+
+Start 4: 2.266 1 ForkPoolWorker-2
+
+Start 8: 2.267 4 ForkPoolWorker-5
+
+Start 12: 2.267 2 ForkPoolWorker-3
+
+Start 16: 2.268 3 ForkPoolWorker-4
+
+Start 20: 2.269 5 ForkPoolWorker-6
+
+Start 24: 2.270 6 ForkPoolWorker-7
+
+Start 28: 2.271 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:156: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:156: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:156: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:156: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:156: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:156: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:156: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:156: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:160: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 20: 2.269 Use time: 20.65
+Start 21: 2.269 5 ForkPoolWorker-6
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:160: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 24: 2.270 Use time: 21.21
+Start 25: 2.270 6 ForkPoolWorker-7
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:160: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 28: 2.271 Use time: 21.92
+Start 29: 2.271 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:160: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 16: 2.268 Use time: 22.25
+Start 17: 2.268 3 ForkPoolWorker-4
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:160: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 8: 2.267 Use time: 22.54
+Start 9: 2.267 4 ForkPoolWorker-5
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:160: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 0: 2.265 Use time: 22.64
+Start 1: 2.265 0 ForkPoolWorker-1
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:160: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: divide by zero encountered in divide
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 4: 2.266 Use time: 22.70
+Start 5: 2.266 1 ForkPoolWorker-2
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:160: RuntimeWarning: divide by zero encountered in log
+  E = -np.log(W)
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Corr_len.py:161: RuntimeWarning: invalid value encountered in subtract
+  Corr_len = 1 / (E[:, -2] - E[:, -1])
+End 12: 2.267 Use time: 22.91
+Start 13: 2.268 2 ForkPoolWorker-3
+
+End 21: 2.269 Use time: 14.83
+Start 22: 2.269 5 ForkPoolWorker-6
+
+End 25: 2.270 Use time: 15.83
+Start 26: 2.270 6 ForkPoolWorker-7
+
+End 29: 2.271 Use time: 16.46
+Start 30: 2.271 7 ForkPoolWorker-8
+
+End 17: 2.268 Use time: 16.27
+Start 18: 2.269 3 ForkPoolWorker-4
+
+End 9: 2.267 Use time: 16.84
+Start 10: 2.267 4 ForkPoolWorker-5
+
+End 1: 2.265 Use time: 16.88
+Start 2: 2.265 0 ForkPoolWorker-1
+
+End 5: 2.266 Use time: 16.94
+Start 6: 2.266 1 ForkPoolWorker-2
+
+End 13: 2.268 Use time: 17.05
+Start 14: 2.268 2 ForkPoolWorker-3
+
+End 22: 2.269 Use time: 15.04
+Start 23: 2.270 5 ForkPoolWorker-6
+
+End 26: 2.270 Use time: 16.12
+Start 27: 2.270 6 ForkPoolWorker-7
+
+End 18: 2.269 Use time: 15.73
+Start 19: 2.269 3 ForkPoolWorker-4
+
+End 30: 2.271 Use time: 16.33
+Start 31: 2.271 7 ForkPoolWorker-8
+
+End 6: 2.266 Use time: 16.85
+Start 7: 2.266 1 ForkPoolWorker-2
+
+End 2: 2.265 Use time: 17.05
+Start 3: 2.266 0 ForkPoolWorker-1
+
+End 10: 2.267 Use time: 17.32
+Start 11: 2.267 4 ForkPoolWorker-5
+
+End 14: 2.268 Use time: 16.92
+Start 15: 2.268 2 ForkPoolWorker-3
+
+End 23: 2.270 Use time: 15.37
+Start 32: 2.271 5 ForkPoolWorker-6
+
+End 27: 2.270 Use time: 16.41
+Start 36: 2.272 6 ForkPoolWorker-7
+
+End 19: 2.269 Use time: 15.37
+Start 40: 2.273 3 ForkPoolWorker-4
+
+End 31: 2.271 Use time: 16.59
+Start 44: 2.274 7 ForkPoolWorker-8
+
+End 7: 2.266 Use time: 16.80
+Start 48: 2.275 1 ForkPoolWorker-2
+
+End 15: 2.268 Use time: 16.77
+Start 52: 2.276 2 ForkPoolWorker-3
+
+End 3: 2.266 Use time: 17.09
+Start 56: 2.276 0 ForkPoolWorker-1
+
+End 11: 2.267 Use time: 17.35
+Start 60: 2.277 4 ForkPoolWorker-5
+
+End 32: 2.271 Use time: 16.47
+Start 33: 2.272 5 ForkPoolWorker-6
+
+End 36: 2.272 Use time: 16.16
+Start 37: 2.272 6 ForkPoolWorker-7
+
+End 40: 2.273 Use time: 16.20
+Start 41: 2.273 3 ForkPoolWorker-4
+
+End 44: 2.274 Use time: 15.87
+Start 45: 2.274 7 ForkPoolWorker-8
+
+End 48: 2.275 Use time: 15.69
+Start 49: 2.275 1 ForkPoolWorker-2
+
+End 56: 2.276 Use time: 15.73
+Start 57: 2.277 0 ForkPoolWorker-1
+
+End 52: 2.276 Use time: 15.84
+Start 53: 2.276 2 ForkPoolWorker-3
+
+End 60: 2.277 Use time: 15.70
+Start 61: 2.277 4 ForkPoolWorker-5
+
+End 33: 2.272 Use time: 16.13
+Start 34: 2.272 5 ForkPoolWorker-6
+
+End 37: 2.272 Use time: 16.05
+Start 38: 2.273 6 ForkPoolWorker-7
+
+End 41: 2.273 Use time: 16.20
+Start 42: 2.273 3 ForkPoolWorker-4
+
+End 45: 2.274 Use time: 15.82
+Start 46: 2.274 7 ForkPoolWorker-8
+
+End 49: 2.275 Use time: 15.59
+Start 50: 2.275 1 ForkPoolWorker-2
+
+End 53: 2.276 Use time: 15.72
+Start 54: 2.276 2 ForkPoolWorker-3
+
+End 57: 2.277 Use time: 15.84
+Start 58: 2.277 0 ForkPoolWorker-1
+
+End 61: 2.277 Use time: 15.74
+Start 62: 2.278 4 ForkPoolWorker-5
+
+End 34: 2.272 Use time: 16.20
+Start 35: 2.272 5 ForkPoolWorker-6
+
+End 38: 2.273 Use time: 16.19
+Start 39: 2.273 6 ForkPoolWorker-7
+
+End 42: 2.273 Use time: 16.15
+Start 43: 2.274 3 ForkPoolWorker-4
+
+End 46: 2.274 Use time: 15.51
+Start 47: 2.274 7 ForkPoolWorker-8
+
+End 50: 2.275 Use time: 15.68
+Start 51: 2.275 1 ForkPoolWorker-2
+
+End 54: 2.276 Use time: 15.64
+Start 55: 2.276 2 ForkPoolWorker-3
+
+End 58: 2.277 Use time: 15.77
+Start 59: 2.277 0 ForkPoolWorker-1
+
+End 62: 2.278 Use time: 15.56
+Start 63: 2.278 4 ForkPoolWorker-5
+
+End 35: 2.272 Use time: 16.06
+Start 64: 2.278 5 ForkPoolWorker-6
+
+End 39: 2.273 Use time: 15.99
+Start 68: 2.279 6 ForkPoolWorker-7
+
+End 47: 2.274 Use time: 15.61
+Start 72: 2.280 7 ForkPoolWorker-8
+
+End 43: 2.274 Use time: 16.11
+Start 76: 2.280 3 ForkPoolWorker-4
+
+End 51: 2.275 Use time: 15.78
+Start 80: 2.281 1 ForkPoolWorker-2
+
+End 59: 2.277 Use time: 15.70
+Start 84: 2.282 0 ForkPoolWorker-1
+
+End 63: 2.278 Use time: 15.76
+Start 88: 2.283 4 ForkPoolWorker-5
+
+End 55: 2.276 Use time: 15.97
+Start 92: 2.284 2 ForkPoolWorker-3
+
+End 64: 2.278 Use time: 15.65
+Start 65: 2.278 5 ForkPoolWorker-6
+
+End 68: 2.279 Use time: 15.37
+Start 69: 2.279 6 ForkPoolWorker-7
+
+End 72: 2.280 Use time: 15.25
+Start 73: 2.280 7 ForkPoolWorker-8
+
+End 76: 2.280 Use time: 15.15
+Start 77: 2.281 3 ForkPoolWorker-4
+
+End 80: 2.281 Use time: 15.38
+Start 81: 2.281 1 ForkPoolWorker-2
+
+End 84: 2.282 Use time: 14.97
+Start 85: 2.282 0 ForkPoolWorker-1
+
+End 92: 2.284 Use time: 15.20
+Start 93: 2.284 2 ForkPoolWorker-3
+
+End 88: 2.283 Use time: 15.37
+Start 89: 2.283 4 ForkPoolWorker-5
+
+End 65: 2.278 Use time: 15.57
+Start 66: 2.278 5 ForkPoolWorker-6
+
+End 73: 2.280 Use time: 15.29
+Start 74: 2.280 7 ForkPoolWorker-8
+
+End 69: 2.279 Use time: 15.33
+Start 70: 2.279 6 ForkPoolWorker-7
+
+End 77: 2.281 Use time: 15.42
+Start 78: 2.281 3 ForkPoolWorker-4
+
+End 85: 2.282 Use time: 14.99
+Start 86: 2.282 0 ForkPoolWorker-1
+
+End 81: 2.281 Use time: 15.47
+Start 82: 2.282 1 ForkPoolWorker-2
+
+End 93: 2.284 Use time: 14.98
+Start 94: 2.284 2 ForkPoolWorker-3
+
+End 89: 2.283 Use time: 15.19
+Start 90: 2.283 4 ForkPoolWorker-5
+
+End 66: 2.278 Use time: 15.54
+Start 67: 2.279 5 ForkPoolWorker-6
+
+End 74: 2.280 Use time: 15.25
+Start 75: 2.280 7 ForkPoolWorker-8
+
+End 70: 2.279 Use time: 15.29
+Start 71: 2.279 6 ForkPoolWorker-7
+
+End 78: 2.281 Use time: 15.39
+Start 79: 2.281 3 ForkPoolWorker-4
+
+End 86: 2.282 Use time: 15.13
+Start 87: 2.283 0 ForkPoolWorker-1
+
+End 94: 2.284 Use time: 15.09
+Start 95: 2.284 2 ForkPoolWorker-3
+
+End 82: 2.282 Use time: 15.25
+Start 83: 2.282 1 ForkPoolWorker-2
+
+End 90: 2.283 Use time: 15.40
+Start 91: 2.283 4 ForkPoolWorker-5
+
+End 67: 2.279 Use time: 15.46
+Start 96: 2.284 5 ForkPoolWorker-6
+
+End 75: 2.280 Use time: 15.18
+End 71: 2.279 Use time: 15.27
+End 79: 2.281 Use time: 15.40
+End 87: 2.283 Use time: 15.02
+End 95: 2.284 Use time: 15.12
+End 83: 2.282 Use time: 15.29
+End 91: 2.283 Use time: 15.17
+End 96: 2.284 Use time: 15.13
+Start 97: 2.285 5 ForkPoolWorker-6
+
+End 97: 2.285 Use time: 15.06
+Start 98: 2.285 5 ForkPoolWorker-6
+
+End 98: 2.285 Use time: 15.13
+Start 99: 2.285 5 ForkPoolWorker-6
+
+End 99: 2.285 Use time: 15.11
+Results saved to Corr_len_results.pkl
+Wed Dec 25 00:51:45 CST 2024
+257

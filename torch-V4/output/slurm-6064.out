@@ -1,0 +1,87 @@
+Tue Dec 24 20:52:10 CST 2024
+hgpn09
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       1.6Ti       5.0Gi       315Gi       1.9Ti
+Swap:            0B          0B          0B
+11 0.01 38 8
+Start 0: 2.200 0 ForkPoolWorker-1
+
+Start 4: 2.206 1 ForkPoolWorker-2
+
+Start 8: 2.212 4 ForkPoolWorker-5
+
+Start 12: 2.218 2 ForkPoolWorker-3
+
+Start 16: 2.224 3 ForkPoolWorker-4
+
+Start 20: 2.230 5 ForkPoolWorker-6
+
+Start 24: 2.236 6 ForkPoolWorker-7
+
+Start 28: 2.242 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  W[j, :] = eigvals[-2:]
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:95: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+Start 32: 2.248 7 ForkPoolWorker-8
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:95: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+Start 36: 2.255 6 ForkPoolWorker-7
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:95: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+Start 40: 2.261 2 ForkPoolWorker-3
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:95: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+Start 44: 2.267 1 ForkPoolWorker-2
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:95: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+Start 48: 2.273 3 ForkPoolWorker-4
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:95: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+Start 52: 2.279 4 ForkPoolWorker-5
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:95: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+Start 56: 2.285 5 ForkPoolWorker-6
+
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Cv.py:95: UserWarning: torch.linalg.svd: During SVD computation with the selected cusolver driver, batches 0 failed to converge. A more accurate method will be used to compute the SVD as a fallback. Check doc at https://pytorch.org/docs/stable/generated/torch.linalg.svd.html (Triggered internally at /opt/conda/conda-bld/pytorch_1729647378361/work/aten/src/ATen/native/cuda/linalg/BatchLinearAlgebraLib.cpp:697.)
+  U, S, V = torch.svd(Tmerge_pure)
+Start 60: 2.291 0 ForkPoolWorker-1
+
+Start 64: 2.297 7 ForkPoolWorker-8
+
+Start 68: 2.303 6 ForkPoolWorker-7
+
+Start 72: 2.309 2 ForkPoolWorker-3
+
+Start 76: 2.315 1 ForkPoolWorker-2
+
+Start 80: 2.321 3 ForkPoolWorker-4
+
+Start 84: 2.327 4 ForkPoolWorker-5
+
+Start 88: 2.333 0 ForkPoolWorker-1
+
+Start 92: 2.339 5 ForkPoolWorker-6
+
+slurmstepd-hgpn09: error: *** JOB 6064 ON hgpn09 CANCELLED AT 2024-12-25T00:29:02 ***

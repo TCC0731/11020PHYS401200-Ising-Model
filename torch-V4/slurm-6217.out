@@ -1,0 +1,55 @@
+Wed Dec 25 02:00:46 CST 2024
+hgpn08
+              total        used        free      shared  buff/cache   available
+Mem:          2.0Ti        28Gi       1.7Ti       5.0Gi       218Gi       1.9Ti
+Swap:            0B          0B          0B
+dcut = 32
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:138: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  E1 = -np.log(w1[-2:])
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:159: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  if np.abs(func_out[-1]) <= 1e-13:
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:21: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_cosh = np.sqrt(np.cosh(beta * J))
+/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py:22: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  sq_sinh = np.sqrt(np.sinh(beta * J))
+2 2 2.3440182829356035 0.0748329687225815
+3 4 2.2813941674308453 0.012208853217823279
+4 8 2.2704749822519794 0.001289668038957359
+5 16 2.2693723609528362 0.0001870467398141784
+6 32 2.2692622501804043 7.693596738223007e-05
+7 64 2.269253020533766 6.770632074415417e-05
+8 128 2.269244535272758 5.922105973610314e-05
+9 256 2.26923253011692 4.72159038977793e-05
+10 512 2.2692208196739116 3.55054608895955e-05
+dcut = 36
+2 2 2.3440182829356035 0.0748329687225815
+3 4 2.281394486640748 0.01220917242772579
+4 8 2.270475951515192 0.0012906373021701611
+5 16 2.2693585739106137 0.0001732596975916323
+6 32 2.2692441697677332 5.8855554711190194e-05
+7 64 2.2692339776320933 4.866341907128202e-05
+8 128 2.26922764745318 4.2333240157788055e-05
+9 256 2.2692185690947477 3.3254881725675034e-05
+10 512 2.2692096026525403 2.428843951829407e-05
+dcut = 38
+2 2 2.3440182829356035 0.0748329687225815
+3 4 2.2813932879757908 0.01220797376276872
+Traceback (most recent call last):
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 176, in <module>
+    T_star.append(Secant_Method(f,2.265,T_star[-1],10,i,dcut).item())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 156, in Secant_Method
+    func_out.append(func(x[-1],MaxL,dcut))
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 140, in f
+    TLx = merge_x_truncate(TL, TL, dcut)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/CompPhys/11020PHYS401200-Ising-Model/torch-V4/Secant.py", line 117, in merge_x_truncate
+    Tmerge_pure = torch.einsum('abcd,ecfg,hbid,jifg->aehj', TL, TR, TL, TR)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u3518384/anaconda3/envs/py312-torch/lib/python3.12/site-packages/torch/functional.py", line 402, in einsum
+    return _VF.einsum(equation, operands)  # type: ignore[attr-defined]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 22.43 GiB. GPU 0 has a total capacity of 79.11 GiB of which 10.70 GiB is free. Including non-PyTorch memory, this process has 68.40 GiB memory in use. Of the allocated memory 44.93 GiB is allocated by PyTorch, and 22.53 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Wed Dec 25 02:08:52 CST 2024
+486

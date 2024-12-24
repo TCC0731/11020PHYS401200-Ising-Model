@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from multiprocessing import Pool, current_process
 import time
 import pickle
+import argparse
 
 def get_W(beta, J=1, h=0):
     """
@@ -64,7 +65,7 @@ def get_T_bare(beta, J=1, h=0, get_W=get_W):
         torch.Tensor: Bare transfer matrix T_bare.
     """
     W = get_W(beta, J=J, h=h)
-    T_bare = torch.einsum('ai,aj,ak,al->ijkl', W, W, W, W).to(torch.float32)
+    T_bare = torch.einsum('ai,aj,ak,al->ijkl', W, W, W, W)
     return T_bare
 
 def merge_y(Tup, Tdn, combine=False, trace=False):
@@ -124,11 +125,16 @@ def merge_x_truncate(TL, TR, dcut):
     Tmerge = torch.einsum('abcd,ecfg,aeh,dgi->hbfi', TL, TR, U, U)
     return Tmerge
 
-MaxL = 11
+parser = argparse.ArgumentParser()
+parser.add_argument("-d", type=int, default=20)
+args = parser.parse_args()
+print(args)
+
+MaxL = 15
 Tc = 2/np.log(1+np.sqrt(2))
-Temp = np.linspace(Tc - 1e-4, Tc + 4e-4, 100)
+Temp = np.linspace(2.265, 2.285, 100)
 dbeta = 1e-2
-dcut = 16
+dcut = args.d
 num_processes = 8
 print(MaxL, dbeta, dcut, num_processes)
 

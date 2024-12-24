@@ -14,7 +14,7 @@ d1=$(date +"%s")
 hostname
 free -h
 
-python -u Corr_len.py
+python -u Corr_len.py -d $1
 
 date
 d2=$(date +"%s")
